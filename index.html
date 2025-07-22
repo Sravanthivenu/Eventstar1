@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EventStar - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: url('head.jpg') no-repeat center center/cover;
+      height: 60vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 5px black;
+    }
+    header h1 {
+      font-size: 3em;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section.gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    section.gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to EventStar</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="gallery">
+    <img src="11.jpg" alt="Event 1">
+    <img src="12.jpg" alt="Event 2">
+    <img src="13.jpeg" alt="Event 3">
+    <img src="14.jpg" alt="Event 4">
+    <img src="15.jpg" alt="Event 5">
+    <img src="17.jpg" alt="Event 6">
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EventStar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
